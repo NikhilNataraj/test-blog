@@ -12,7 +12,7 @@ from sqlalchemy.orm import relationship
 from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 
 # Optional: add contact me email functionality (Day 60)
-# import smtplib
+import smtplib
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = os.environ.get("FLASK_APP_KEY")
